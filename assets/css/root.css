@@ -10,9 +10,11 @@
     --color-white:#FAFAFA;
     --color-orange:#F36A3E;
     --bg-orange:#F36A3E;
+    --bg-white:#FFFFFF;
     --bg-gray:#F9F9F9;
     --bg-black:#070707;
     --border-orange:#F36A3E66;
+    --bg-body:#FFFEFE;
 }
 .fs-sm{
     font-size: var(--fs-sm);
@@ -53,6 +55,9 @@
 .bg-black{
     background: var(--bg-black);
 }
+.bg_body{
+    background: var(--bg-body);
+}
 
 .lh_18{
     line-height: 18.96px;
@@ -68,6 +73,9 @@
 }
 .lh_47{
     line-height: 47.4px;
+}
+.lh_23{
+    line-height: 23.7px;
 }
 .fw_400{
     font-weight: 400;
