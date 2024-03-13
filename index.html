@@ -1,408 +1,852 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Hawk</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
-    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
-    integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer">
-<link rel="stylesheet" href="./assets/css/style.css">
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    <header class="position-relative bg_body">
+    <header class="position-relative bg_body overflow-hidden">
+        <div class="position-absolute paper-LT z-0 d-none d-md-block">
+            <img src="./assets/images/paper-LT.png" alt="paper-LT" class="w-100">
+        </div>
+        <div class="position-absolute paper-LB z-1 d-none d-md-block">
+            <img src="./assets/images/paper-LB.png" alt="paper-LB" class="w-100">
+        </div>
+        <div class="position-absolute paper-RT z-0 d-none d-md-block">
+            <img src="./assets/images/paper-RT.png" alt="paper-RT" class="w-100">
+        </div>
+        <div class="position-absolute paper-RB z-0 d-none d-md-block">
+            <img src="./assets/images/paper-RB.png" alt="paper-RB" class="w-100">
+        </div>
+        <div class="position-absolute header-box z-0">
+            <img src="./assets/images/header-box.png" alt="header-box" class="w-100">
+        </div>
+        <div class="position-absolute Group5 z-0 d-none d-sm-block">
+            <img src="./assets/images/Group5.png" alt="Group5" class="w-100">
+        </div>
+        <div class="position-absolute Group-8 z-0">
+            <img src="./assets/images/Group-8.png" alt="Group-8" class="w-100">
+        </div>
+
         <div class="position-absolute z-0 header_ellip">
             <img src="./assets/images/header_ellip.png" alt="header_ellip" class="w-100">
         </div>
-     <div class="my_container min-vh-100 d-flex flex-column">
-        <nav class="d-flex align-items-center justify-content-between">
-            <img src="./assets/images/logo.png" alt="logo">
-            <ul class="mb-0 ps-0 gap_41 d-flex align-items-center">
-                <li><a href="#" class="fs-sm ff-rubik lh_18 fw_400 nav_link">Home</a></li>
-                <li><a href="#" class="fs-sm ff-rubik lh_18 fw_400 nav_link">About</a></li>
-                <li><a href="#" class="fs-sm ff-rubik lh_18 fw_400 nav_link">We’ll help you</a></li>
-                <li><a href="#" class="fs-sm ff-rubik lh_18 fw_400 nav_link">Testimonials</a></li>
-            </ul>
-            <button class="nav_btn fs-sm lh_18 fw_600 bg-orange color-white lh_18">Get in Touch</button>
-        </nav>
-       <div class="d-flex flex-column flex-grow-1 justify-content-center align-items-center z-1">
-        <h1 class=" mb-0 fs-3xl fw_600 text-center ff-rubik lh_61 w_766">Unloc<span class="orange_ball position-relative">k</span> Your Potential with a Professional CV Builder</h1>
-        <p class="mb-0 fs-sm color-black w_565 pt_14 ff-rubik text-center op_70 lh_24">Our user-friendly platform guides you through the process, allowing you to customize every section to align with your unique career goals.</p>
-        <div class="d-flex gap_17 mt_40">
-            <button class="ff-rubik fs-sm fw_600 color-orange home_btn lh_18">Get Started</button>
-            <button class="ff-rubik fs-sm fw_600 color-orange home_btn lh_18">Watch Demo</button>
+        <div class="my_container min-vh-100 d-flex flex-column">
+            <nav class="d-flex align-items-center justify-content-between">
+                <img src="./assets/images/logo.svg" alt="logo">
+                <ul class="mb-0 ps-0 gap_41 d-flex align-items-center menulist">
+                    <li class="pb_lg_24 border_b text-center"><a href="#" class="fs-sm ff-rubik lh_18 fw_400 nav_link">Home</a></li>
+                    <li class="pb_lg_24 border_b text-center"><a href="#" class="fs-sm ff-rubik lh_18 fw_400 nav_link">About</a></li>
+                    <li class="pb_lg_24 border_b text-center"><a href="#" class="fs-sm ff-rubik lh_18 fw_400 nav_link">We’ll help you</a></li>
+                    <li class="pb_lg_24 border_b text-center"><a href="#" class="fs-sm ff-rubik lh_18 fw_400 nav_link">Testimonials</a></li>
+                    <li class="d-block d-sm-none">
+                        <button
+                            class="nav_btn fs-sm lh_18 fw_600 bg-orange w_174 w-100 color-white lh_18 text-nowrap">Get
+                            in Touch</button>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center gap_30">
+                    <button
+                        class="nav_btn fs-sm lh_18 fw_600 bg-orange w_174 w-100 color-white d-none d-sm-block lh_18 text-nowrap">Get
+                        in Touch</button>
+               <div class="d-block d-lg-none">
+                <div class="menuicon d-flex flex-column gap-2">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+               </div>
+                </div>
+
+            </nav>
+            <div class="d-flex flex-column flex-grow-1 justify-content-center align-items-center z-3">
+                <h1 class=" mb-0 fs-3xl fw_600 text-center ff-rubik lh_61 w_766 pt_30">Unloc<span
+                        class="orange_ball position-relative">k</span> Your Potential with a Professional <span
+                        class="gradient_line position-relative">CV Builder</span></h1>
+                <p class="mb-0 fs-sm color-black w_565 pt_14 ff-rubik text-center op_70 lh_24">Our user-friendly
+                    platform guides you through the process, allowing you to customize every section to align with your
+                    unique career goals.</p>
+                <div class="d-flex gap_17 mt_40">
+                    <button class="ff-rubik fs-sm fw_600 color-orange home_btn lh_18">Get Started</button>
+                    <button class="ff-rubik fs-sm fw_600 color-orange home_btn lh_18">Watch Demo</button>
+                </div>
+                <div class="hero_img d-sm-none pt_35 pb_14 px_21">
+                    <img src="./assets/images/hero_img.png" alt="hero_img" class="w-100">
+                </div>
+            </div>
         </div>
-       </div>
-     </div>
     </header>
-    <section>
+    <section class="position-relative">
+        <div class="position-absolute sect2_ellip1 d-none d-md-block z-0">
+            <img src="./assets/images/sect2_ellip1.png" alt="sect2_ellip1" class="w-100">
+        </div>
+        <div class="position-absolute Sec2_ellip2 d-none d-md-block z-0">
+            <img src="./assets/images/Sec2_ellip2.png" alt="Sec2_ellip2" class="w-100">
+        </div>
         <div class="my_container">
             <div class="row pt_165 pb_160">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 z-2">
                     <div class="sec2_gif w_596">
                         <img src="./assets/images/section2_gif.gif" alt="sec2_gif" class="w-100">
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 pt_60">
                     <div class="slider_1">
                         <div class="slider1_card d-flex flex-column align-items-center justify-content-center ml_15">
-                           <img src="./assets/images/card_1.png" alt="card_1">
-                              <p class="mb-0 pt_19 color-black fs-lg lh_26 fw_500 ff-rubik">Themes</p>  
+                            <img src="./assets/images/card_1.png" alt="card_1">
+                            <p class="mb-0 pt_19 color-black fs-lg lh_26 fw_500 ff-rubik">Themes</p>
                         </div>
                         <div class="slider1_card d-flex flex-column align-items-center justify-content-center ml_15">
                             <img src="./assets/images/card_2.png" alt="card_2">
-                              <p class="mb-0 pt_19 color-black fs-lg lh_26 fw_500 ff-rubik">Themes</p>  
+                            <p class="mb-0 pt_19 color-black fs-lg lh_26 fw_500 ff-rubik">Customize</p>
                         </div>
                         <div class="slider1_card d-flex flex-column align-items-center justify-content-center ml_15">
                             <img src="./assets/images/card_3.png" alt="card_3">
-                              <p class="mb-0 pt_19 color-black fs-lg lh_26 fw_500 ff-rubik">Themes</p>  
+                            <p class="mb-0 pt_19 color-black fs-lg lh_26 fw_500 ff-rubik">Make copies</p>
                         </div>
                         <div class="slider1_card d-flex flex-column align-items-center justify-content-center ml_15">
                             <img src="./assets/images/card_4.png" alt="card_4">
-                              <p class="mb-0 pt_19 color-black fs-lg lh_26 fw_500 ff-rubik">Themes</p>  
+                            <p class="mb-0 pt_19 color-black fs-lg lh_26 fw_500 ff-rubik">Templates</p>
                         </div>
                         <div class="slider1_card d-flex flex-column align-items-center justify-content-center ml_15">
                             <img src="./assets/images/card_5.png" alt="card_5">
-                              <p class="mb-0 pt_19 color-black fs-lg lh_26 fw_500 ff-rubik">Themes</p>  
+                            <p class="mb-0 pt_19 color-black fs-lg lh_26 fw_500 ff-rubik text-center">Version history</p>
                         </div>
                     </div>
-                    <p class="mb-0 color-black fs-sm lh_24 ff-rubik fw_400 op_80">Theme's robust features allow you to showcase your skills, accomplishments, and experiences in a captivating way. From customizing the layout to selecting the perfect color scheme, every detail can be tailored to match your style and industry. </p>
+                    <p class="mb-0 color-black fs-sm lh_24 ff-rubik fw_400 op_80 pt_40_1">Theme's robust features allow you to
+                        showcase your skills, accomplishments, and experiences in a captivating way. From customizing
+                        the layout to selecting the perfect color scheme, every detail can be tailored to match your
+                        style and industry. </p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="bg-gray">
-        <div class="my_container">
-        <div class="row py_80 align-items-center">
-            <div class="col-6">
-                <h2 class="mb-0 w_487 fs-2xl ff-rubik fw_500 lh_47 color-black2">Powerful Tools to Create <span class="color-orange">Your Standout CV</span></h2>
-                <p class="mb-0 fs-sm color-black ff-rubik fw_400 lh_24 op_80 w_525 pt-4">Customize your CV to reflect your <span class="fw_600">unique personality</span> and professional brand. Choose from a wide range of <span class="fw_600">professionally designed</span> templates and layouts, allowing you to find the <span class="fw_600">perfect style</span> that aligns with your industry and career goals.</p>
-            </div>
-            <div class="col-6 d-flex justify-content-end">
-                <img src="./assets/images/Group_1.png" alt="Group_1" class="w-100 w_496">
-            </div>
+    <section class="bg-gray position-relative">
+        <div class="ball_2 position-absolute d-none d-md-block">
+            <img src="./assets/images/ball_2.png" alt="ball_2" class="w-100">
         </div>
+        <div class="sphere position-absolute d-none d-md-block">
+            <img src="./assets/images/sphere.png" alt="sphere" class="w-100">
+        </div>
+        <div class="box_2 position-absolute d-none d-md-block">
+            <img src="./assets/images/box_2.png" alt="box_2" class="w-100">
+        </div>
+        <div class="my_container">
+            <div class="row py_80 align-items-center">
+                <div class="col-12 col-md-6">
+                    <h2 class="mb-0 w_487 fs-2xl ff-rubik fw_500 lh_47 color-black2">Powerful Tools to Create <span
+                            class="color-orange gradient_line2 position-relative">Your Standout CV</span></h2>
+                    <p class="mb-0 fs-sm color-black ff-rubik fw_400 lh_24 op_80 w_525 pt-4">Customize your CV to
+                        reflect your <span class="fw_600">unique personality</span> and professional brand. Choose from
+                        a wide range of <span class="fw_600">professionally designed</span> templates and layouts,
+                        allowing you to find the <span class="fw_600">perfect style</span> that aligns with your
+                        industry and career goals.</p>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-end pt_40 pt-md-0">
+                    <img src="./assets/images/Group_1.png" alt="Group_1" class="w-100 w_496">
+                </div>
+            </div>
         </div>
     </section>
-    <section class="bg_body">
+    <section class="bg_body position-relative overflow-hidden">
+        <div class="position-absolute sec4_ellip1 z-0 d-none d-md-block">
+            <img src="./assets/images/sec4_ellip1.png" alt="sec4_ellip1" class="w-100">
+        </div>
+        <div class="position-absolute sec4_ellip2 z-0 d-none d-md-block">
+            <img src="./assets/images/sec4_ellip2.png" alt="sec4_ellip2" class="w-100">
+        </div>
         <div class="my_container">
-            <div class="row pt_146 pb_160">
-                <div class="col-6">
+            <div class="row pt_160 pb_160 flex-column-reverse flex-md-row">
+                <div class="col-12 col-md-6 pt_40 pt-md-0">
                     <div class="w_548">
                         <img src="./assets/images/calander.png" alt="calander" class="w-100">
+                    <button class="fs-sm fw_600 ff-rubik lh_18 d-md-none color-white Btn mt_40">Book a Call</button>
                     </div>
                 </div>
-                <div class="col-6 d-flex flex-column justify-content-center align-items-start">
+                <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start">
                     <h2 class="mb-0 fs-2xl lh_47 ff-rubik color-black2 fw_500">We’ll help you</h2>
-                    <p class="mb-0 fs-sm lh_24 ff-rubik color-black op_80 fw_400 w_556 pt-3">Once you've booked a session, a confirmation email will be sent to the provided email address, containing all the necessary details, including the date, time, and instructions for the session.</p>
-                    <button class="fs-sm fw_600 ff-rubik lh_18 color-white Btn mt_40">Book a Call</button>
+                    <p class="mb-0 fs-sm lh_24 ff-rubik color-black op_80 fw_400 w_556 pt-3">Once you've booked a
+                        session, a confirmation email will be sent to the provided email address, containing all the
+                        necessary details, including the date, time, and instructions for the session.</p>
+                    <button class="fs-sm fw_600 d-none d-md-block ff-rubik lh_18 color-white Btn mt_40">Book a Call</button>
                 </div>
             </div>
         </div>
     </section>
     <section class="bg-gray">
-        <div class="my_container2">
+        <div class="my_container">
             <div class="row py_100">
-                <div class="col-7">
-                    <h2 class="mb-0 fs-2xl lh_47 ff-rubik fw_500 color-black2">20+ <span class="color-orange">Professionally designed</span> resume sections</h2>
-                    <p class="mb-0 fs-sm lh_24 fw_400 ff-rubik pt-3 color-black op_80 w_556 pb-4">Express your professional history without limitations or worry about how your resume looks</p>
+                <div class="col-12 col-md-7">
+                    <h2 class="mb-0 fs-2xl lh_47 ff-rubik fw_500 color-black2">20+ <span
+                            class="color-orange">Professionally designed</span> resume sections</h2>
+                    <p class="mb-0 fs-sm lh_24 fw_400 ff-rubik pt-3 color-black op_80 w_556 pb-sm-4 p_sm_30">Express your
+                        professional history without limitations or worry about how your resume looks</p>
                     <div class="d-flex gap-2 align-items-center">
                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="12.5" cy="12.5" r="12.5" fill="#F36A3E" style="fill:#F36A3E;fill:color(display-p3 0.9529 0.4157 0.2431);fill-opacity:1;"/>
-                            <path d="M10.1252 19.1658L5.20898 14.2495L7.4494 12.0091L10.1252 14.6929L17.9469 6.86328L20.1873 9.1037L10.1252 19.1658Z" fill="#FAFAFA" style="fill:#FAFAFA;fill:color(display-p3 0.9804 0.9804 0.9804);fill-opacity:1;"/>
-                            </svg>
-<p class="mb-0 fs-sm fw_400 ff-rubik lh_24 color-black op_90">Professional sections like <span class="fw_600">Experience, Skills, Summary</span> and <span class="fw_600">Education</span></p>                            
+                            <circle cx="12.5" cy="12.5" r="12.5" fill="#F36A3E"
+                                style="fill:#F36A3E;fill:color(display-p3 0.9529 0.4157 0.2431);fill-opacity:1;" />
+                            <path
+                                d="M10.1252 19.1658L5.20898 14.2495L7.4494 12.0091L10.1252 14.6929L17.9469 6.86328L20.1873 9.1037L10.1252 19.1658Z"
+                                fill="#FAFAFA"
+                                style="fill:#FAFAFA;fill:color(display-p3 0.9804 0.9804 0.9804);fill-opacity:1;" />
+                        </svg>
+                        <p class="mb-0 fs-sm fw_400 ff-rubik lh_24 color-black op_90">Professional sections like <span
+                                class="fw_600">Experience, Skills, Summary</span> and <span
+                                class="fw_600">Education</span></p>
                     </div>
-                    <div class="d-flex gap-2 align-items-center pt-3 pb-3">
+                    <div class="d-flex gap-2 align-items-center pt-sm-3 pb-sm-3 padding_xsm">
                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="12.5" cy="12.5" r="12.5" fill="#F36A3E" style="fill:#F36A3E;fill:color(display-p3 0.9529 0.4157 0.2431);fill-opacity:1;"/>
-                            <path d="M10.1252 19.1658L5.20898 14.2495L7.4494 12.0091L10.1252 14.6929L17.9469 6.86328L20.1873 9.1037L10.1252 19.1658Z" fill="#FAFAFA" style="fill:#FAFAFA;fill:color(display-p3 0.9804 0.9804 0.9804);fill-opacity:1;"/>
-                            </svg>
-<p class="mb-0 fs-sm fw_400 ff-rubik lh_24 color-black op_90">Professional sections like <span class="fw_600">Strengths, Quotes, Books, Interests</span> and <span class="fw_600">My Time.</span></p>                            
+                            <circle cx="12.5" cy="12.5" r="12.5" fill="#F36A3E"
+                                style="fill:#F36A3E;fill:color(display-p3 0.9529 0.4157 0.2431);fill-opacity:1;" />
+                            <path
+                                d="M10.1252 19.1658L5.20898 14.2495L7.4494 12.0091L10.1252 14.6929L17.9469 6.86328L20.1873 9.1037L10.1252 19.1658Z"
+                                fill="#FAFAFA"
+                                style="fill:#FAFAFA;fill:color(display-p3 0.9804 0.9804 0.9804);fill-opacity:1;" />
+                        </svg>
+                        <p class="mb-0 fs-sm fw_400 ff-rubik lh_24 color-black op_90">Professional sections like <span
+                                class="fw_600">Strengths, Quotes, Books, Interests</span> and <span class="fw_600">My
+                                Time.</span></p>
                     </div>
                     <div class="d-flex gap-2">
                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="12.5" cy="12.5" r="12.5" fill="#F36A3E" style="fill:#F36A3E;fill:color(display-p3 0.9529 0.4157 0.2431);fill-opacity:1;"/>
-                            <path d="M10.1252 19.1658L5.20898 14.2495L7.4494 12.0091L10.1252 14.6929L17.9469 6.86328L20.1873 9.1037L10.1252 19.1658Z" fill="#FAFAFA" style="fill:#FAFAFA;fill:color(display-p3 0.9804 0.9804 0.9804);fill-opacity:1;"/>
-                            </svg>
-<p class="mb-0 fs-sm fw_400 ff-rubik lh_24 color-black op_90">Other sections like <span class="fw_600">Certifications, Awards, Achievements, Language</span> and <span class="fw_600">Reference</span></p>                            
+                            <circle cx="12.5" cy="12.5" r="12.5" fill="#F36A3E"
+                                style="fill:#F36A3E;fill:color(display-p3 0.9529 0.4157 0.2431);fill-opacity:1;" />
+                            <path
+                                d="M10.1252 19.1658L5.20898 14.2495L7.4494 12.0091L10.1252 14.6929L17.9469 6.86328L20.1873 9.1037L10.1252 19.1658Z"
+                                fill="#FAFAFA"
+                                style="fill:#FAFAFA;fill:color(display-p3 0.9804 0.9804 0.9804);fill-opacity:1;" />
+                        </svg>
+                        <p class="mb-0 fs-sm fw_400 ff-rubik lh_24 color-black op_90">Other sections like <span
+                                class="fw_600">Certifications, Awards, Achievements, Language</span> and <span
+                                class="fw_600">Reference</span></p>
                     </div>
-                    <button class="fs-sm fw_600 ff-rubik lh_18 color-white Btn mt_40">Book a Call</button>
+                    <button class="fs-sm fw_600 ff-rubik lh_18 color-white Btn mt_40 d-none d-md-block">Get Started</button>
                 </div>
-                <div class="col-5">
+                <div class="col-12 col-md-5 pt_40 pt-md-0">
                     <div class="w_509">
-                        <img src="./assets/images/multi_cards.png" alt="multi_cards" class="w-100">
+                        <img src="./assets/images/multi_cards.png" alt="multi_cards" class="w-100 img_shadow">
+                    <button class="fs-sm fw_600 ff-rubik lh_18 color-white Btn mt_40 d-md-none">Get Started</button>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="bg_body">
+    <section class="bg_body overflow-hidden position-relative">
+        <div class="position-absolute sec6_ellip1 z-0 d-none d-md-block">
+            <img src="./assets/images/sec6_ellip1.png" alt="sec6_ellip1" class="w-100">
+        </div>
+        <div class="position-absolute sec6_ellip2 z-0 d-none d-md-block">
+            <img src="./assets/images/sec6_ellip2.png" alt="sec6_ellip2" class="w-100">
+        </div>
         <div class="my_container">
             <div class="row pt_135 pb_163">
-                <div class="col-6">
-                    <div class="position-relative Elegant_Clean w_347">
-                <img src="./assets/images/Elegant_Clean.png" alt="Elegant_Clean" class="w-100">
-                <div class="position-absolute Frame1">
-                    <img src="./assets/images/Frame1.png" alt="Frame1" class="w-100">
+                <div class="col-12 col-md-6">
+                    <img src="./assets/images/Group_2.png" alt="Group_2" class="w-100 img_shadow w_465">
                 </div>
-                <div class="position-absolute Frame2">
-                    <img src="./assets/images/Frame2.png" alt="Frame2" class="w-100">
-                </div>
-                <div class="position-absolute Frame3">
-                    <img src="./assets/images/Frame3.png" alt="Frame3" class="w-100">
-                </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <h2 class="mb-0 fs-2xl lh_47 ff-rubik fw_500 color-black2">Resume trailoring based on the <span class="color-orange">job you’re applying</span> for</h2>
-                    <p class="mb-0 fs-sm lh_24 fw_400 ff-rubik pt-3 color-black op_80 w_556 pb-4">Quickly ensure that your resume covers key skills and experience by pasting the job ad you’re applying for</p>
+                <div class="col-12 col-md-6 pt_40 pt-md-0">
+                    <h2 class="mb-0 fs-2xl lh_47 ff-rubik fw_500 color-black2">Resume trailoring based on the <span
+                            class="color-orange gradient_line3 position-relative">job you’re applying</span> for</h2>
+                    <p class="mb-0 fs-sm lh_24 fw_400 ff-rubik pt-3 color-black op_80 w_556 pb-4">Quickly ensure that
+                        your resume covers key skills and experience by pasting the job ad you’re applying for</p>
                     <div class="d-flex gap-2">
                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="12.5" cy="12.5" r="12.5" fill="#F36A3E" style="fill:#F36A3E;fill:color(display-p3 0.9529 0.4157 0.2431);fill-opacity:1;"/>
-                            <path d="M10.1252 19.1658L5.20898 14.2495L7.4494 12.0091L10.1252 14.6929L17.9469 6.86328L20.1873 9.1037L10.1252 19.1658Z" fill="#FAFAFA" style="fill:#FAFAFA;fill:color(display-p3 0.9804 0.9804 0.9804);fill-opacity:1;"/>
-                            </svg>
-<p class="mb-0 fs-sm fw_400 ff-rubik lh_24 color-black op_90">Skills and experience analysis</p>                            
+                            <circle cx="12.5" cy="12.5" r="12.5" fill="#F36A3E"
+                                style="fill:#F36A3E;fill:color(display-p3 0.9529 0.4157 0.2431);fill-opacity:1;" />
+                            <path
+                                d="M10.1252 19.1658L5.20898 14.2495L7.4494 12.0091L10.1252 14.6929L17.9469 6.86328L20.1873 9.1037L10.1252 19.1658Z"
+                                fill="#FAFAFA"
+                                style="fill:#FAFAFA;fill:color(display-p3 0.9804 0.9804 0.9804);fill-opacity:1;" />
+                        </svg>
+                        <p class="mb-0 fs-sm fw_400 ff-rubik lh_24 color-black op_90">Skills and experience analysis</p>
                     </div>
                     <div class="d-flex gap-2 pt-3 pb-3">
                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="12.5" cy="12.5" r="12.5" fill="#F36A3E" style="fill:#F36A3E;fill:color(display-p3 0.9529 0.4157 0.2431);fill-opacity:1;"/>
-                            <path d="M10.1252 19.1658L5.20898 14.2495L7.4494 12.0091L10.1252 14.6929L17.9469 6.86328L20.1873 9.1037L10.1252 19.1658Z" fill="#FAFAFA" style="fill:#FAFAFA;fill:color(display-p3 0.9804 0.9804 0.9804);fill-opacity:1;"/>
-                            </svg>
-<p class="mb-0 fs-sm fw_400 ff-rubik lh_24 color-black op_90">Actionable Checklist of what else to add to your resume</p>                            
+                            <circle cx="12.5" cy="12.5" r="12.5" fill="#F36A3E"
+                                style="fill:#F36A3E;fill:color(display-p3 0.9529 0.4157 0.2431);fill-opacity:1;" />
+                            <path
+                                d="M10.1252 19.1658L5.20898 14.2495L7.4494 12.0091L10.1252 14.6929L17.9469 6.86328L20.1873 9.1037L10.1252 19.1658Z"
+                                fill="#FAFAFA"
+                                style="fill:#FAFAFA;fill:color(display-p3 0.9804 0.9804 0.9804);fill-opacity:1;" />
+                        </svg>
+                        <p class="mb-0 fs-sm fw_400 ff-rubik lh_24 color-black op_90">Actionable Checklist of what else
+                            to add to your resume</p>
                     </div>
                     <div class="d-flex gap-2">
                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="12.5" cy="12.5" r="12.5" fill="#F36A3E" style="fill:#F36A3E;fill:color(display-p3 0.9529 0.4157 0.2431);fill-opacity:1;"/>
-                            <path d="M10.1252 19.1658L5.20898 14.2495L7.4494 12.0091L10.1252 14.6929L17.9469 6.86328L20.1873 9.1037L10.1252 19.1658Z" fill="#FAFAFA" style="fill:#FAFAFA;fill:color(display-p3 0.9804 0.9804 0.9804);fill-opacity:1;"/>
-                            </svg>
-<p class="mb-0 fs-sm fw_400 ff-rubik lh_24 color-black op_90">Instant comparison between your resume and the job posting</p>                            
+                            <circle cx="12.5" cy="12.5" r="12.5" fill="#F36A3E"
+                                style="fill:#F36A3E;fill:color(display-p3 0.9529 0.4157 0.2431);fill-opacity:1;" />
+                            <path
+                                d="M10.1252 19.1658L5.20898 14.2495L7.4494 12.0091L10.1252 14.6929L17.9469 6.86328L20.1873 9.1037L10.1252 19.1658Z"
+                                fill="#FAFAFA"
+                                style="fill:#FAFAFA;fill:color(display-p3 0.9804 0.9804 0.9804);fill-opacity:1;" />
+                        </svg>
+                        <p class="mb-0 fs-sm fw_400 ff-rubik lh_24 color-black op_90">Instant comparison between your
+                            resume and the job posting</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="bg-gray">
-        <div class="my_container pb_80">
-            <h2 class="mb-0 fs-2xl lh_47 ff-rubik fw_500 color-black2 text-center pt_80 pb-5">What our Clients Say</h2>
-            <div class="comment_slider">
-              <div class="px-1">
-                <div class="row justify-content-center pb_80">
-                    <div class="col-4 mt_26">
-                        <div class="position-relative">
-                            <div class="comment_card position-relative">
-                                <div class="position-absolute card_arrow">
-                                    <img src="./assets/images/card_arrow.png" alt="card_arrow">
+    <section class="bg-gray position-relative">
+        <div class="my_container pt_80 pb_47">
+            <h2 class="mb-0 fs-2xl lh_47 ff-rubik fw_500 color-black2 text-center pb_45">What our Clients Say</h2>
+            <div class="comment_slider w_734 mx-auto">
+                <div class="px-1">
+                    <div class="row justify-content-center pb_sm_80">
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 mt_26">
+                                <div class="comment_card position-relative">
+                                    <div class="position-absolute card_arrow">
+                                        <img src="./assets/images/card_arrow.png" alt="card_arrow">
+                                    </div>
+                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Sit urna ornare sed
+                                        quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat
+                                        in placerat</p>
                                 </div>
-                                <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat</p>
-                            </div>
-                            <div class="d-flex position-absolute gap_10 card_name">
-                                <img src="./assets/images/Darrel.png" alt="Darrel">
-                                <div class="d-flex flex-column">
-                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_23 pb-1">Darrell Steward</p>
-                                    <img src="./assets/images/Five_star.png" alt="Five_star">
+                                <div class="d-flex gap_10 card_name">
+                                    <img src="./assets/images/Darrel.png" alt="Darrel">
+                                    <div class="d-flex flex-column">
+                                        <p class="mb-0 fs-md ff-rubik fw_400 lh_23 pb-1">Darrell Steward</p>
+                                        <img src="./assets/images/Five_star.png" alt="Five_star" class="w_98">
+                                    </div>
                                 </div>
-                            </div>
                         </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="position-relative">
-                            <div class="comment_card position-relative">
-                                <div class="position-absolute card_arrow">
-                                    <img src="./assets/images/card_arrow.png" alt="card_arrow">
+                        <div class="col-12 col-sm-6 d-none d-sm-block col-md-7 col-lg-4 mt_lg_40">
+                                <div class="comment_card position-relative">
+                                    <div class="position-absolute card_arrow">
+                                        <img src="./assets/images/card_arrow.png" alt="card_arrow">
+                                    </div>
+                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Magna ipsum erat magna
+                                        nulla auctor. Phasellus consectetur aliquam vel at non faucibus viverra.</p>
                                 </div>
-                                <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Magna ipsum erat magna nulla auctor. Phasellus consectetur aliquam vel at non faucibus viverra.</p>
-                            </div>
-                            <div class="d-flex position-absolute gap_10 card_name">
-                                <img src="./assets/images/Savannah.png" alt="Savannah">
-                                <div class="d-flex flex-column">
-                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_23 pb-1">Savannah Nguyen</p>
-                                    <img src="./assets/images/Five_star.png" alt="Five_star">
+                                <div class="d-flex gap_10 card_name">
+                                    <img src="./assets/images/Savannah.png" alt="Savannah">
+                                    <div class="d-flex flex-column">
+                                        <p class="mb-0 fs-md ff-rubik fw_400 lh_23 pb-1">Savannah Nguyen</p>
+                                        <img src="./assets/images/Five_star.png" alt="Five_star" class="w_98">
+                                    </div>
                                 </div>
-                            </div>
                         </div>
-                    </div>
-                    <div class="col-4 mt_43">
-                        <div class="position-relative">
-                            <div class="comment_card position-relative">
-                                <div class="position-absolute card_arrow">
-                                    <img src="./assets/images/card_arrow.png" alt="card_arrow">
+                        <div class="col-12 col-sm-6 col-lg-4 d-none d-lg-block mt_43">
+                                <div class="comment_card position-relative">
+                                    <div class="position-absolute card_arrow">
+                                        <img src="./assets/images/card_arrow.png" alt="card_arrow">
+                                    </div>
+                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Morbi leo ullamcorper
+                                        in et viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
                                 </div>
-                                <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
-                            </div>
-                            <div class="d-flex position-absolute gap_10 card_name">
-                                <img src="./assets/images/Esther.png" alt="Esther">
-                                <div class="d-flex flex-column">
-                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_23 pb-1">Esther Howard</p>
-                                    <img src="./assets/images/Five_star.png" alt="Five_star">
+                                <div class="d-flex gap_10 card_name">
+                                    <img src="./assets/images/Esther.png" alt="Esther">
+                                    <div class="d-flex flex-column">
+                                        <p class="mb-0 fs-md ff-rubik fw_400 lh_23 pb-1">Esther Howard</p>
+                                        <img src="./assets/images/Five_star.png" alt="Five_star" class="w_98">
+                                    </div>
                                 </div>
-                            </div>
                         </div>
-                    </div>
-                    <div class="col-5 mt_100 d-flex flex-column align-items-end">
-                        <div class="position-relative">
-                            <div class="comment_card position-relative">
-                                <div class="position-absolute card_arrow">
-                                    <img src="./assets/images/card_arrow.png" alt="card_arrow">
+                        <div class="col-12 col-sm-6 col-lg-5 d-none d-sm-block mt_43  ">
+                                <div class="comment_card position-relative">
+                                    <div class="position-absolute card_arrow">
+                                        <img src="./assets/images/card_arrow.png" alt="card_arrow">
+                                    </div>
+                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Urna ac eu cras
+                                        pellentesque scelerisque et. Vestibulum sed felis leo leo massa elementum sit
+                                        praesent eu.</p>
                                 </div>
-                                <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Urna ac eu cras pellentesque scelerisque et. Vestibulum sed felis leo leo massa elementum sit praesent eu.</p>
-                            </div>
-                            <div class="d-flex position-absolute gap_10 card_name">
-                                <img src="./assets/images/Jenny.png" alt="Jenny">
-                                <div class="d-flex flex-column">
-                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_23 pb-1">Jenny Wilson</p>
-                                    <img src="./assets/images/Five_star.png" alt="Five_star">
+                                <div class="d-flex gap_10 card_name w-100 ">
+                                    <img src="./assets/images/Jenny.png" alt="Jenny">
+                                    <div class="d-flex flex-column">
+                                        <p class="mb-0 fs-md ff-rubik fw_400 lh_23 pb-1">Jenny Wilson</p>
+                                        <img src="./assets/images/Five_star.png" alt="Five_star" class="w_98">
+                                    </div>
                                 </div>
-                            </div>
                         </div>
-                    </div>
-                    <div class="col-5 mt_116 d-flex flex-column align-items-center">
-                        <div class="position-relative">
-                            <div class="comment_card position-relative">
-                                <div class="position-absolute card_arrow">
-                                    <img src="./assets/images/card_arrow.png" alt="card_arrow">
+                        <div class="col-12 col-sm-6 col-lg-4 d-none d-sm-block mt_80">
+                                <div class="comment_card position-relative">
+                                    <div class="position-absolute card_arrow">
+                                        <img src="./assets/images/card_arrow.png" alt="card_arrow">
+                                    </div>
+                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Nibh in commodo
+                                        faucibus tincidunt. Adipiscing lobortis est elit neque sem scelerisque tellus
+                                        magna urna.</p>
                                 </div>
-                                <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Nibh in commodo faucibus tincidunt. Adipiscing lobortis est elit neque sem scelerisque tellus magna urna.</p>
-                            </div>
-                            <div class="d-flex position-absolute gap_10 card_name">
-                                <img src="./assets/images/Wade.png" alt="Wade">
-                                <div class="d-flex flex-column">
-                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_23 pb-1">Wade Warren</p>
-                                    <img src="./assets/images/Five_star.png" alt="Five_star">
+                                <div class="d-flex gap_10 card_name">
+                                    <img src="./assets/images/Wade.png" alt="Wade">
+                                    <div class="d-flex flex-column">
+                                        <p class="mb-0 fs-md ff-rubik fw_400 lh_23 pb-1">Wade Warren</p>
+                                        <img src="./assets/images/Five_star.png" alt="Five_star" class="w_98">
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-              </div>
-              <div class="px-1">
-                <div class="row justify-content-center pb_80">
-                    <div class="col-4 mt_26">
-                        <div class="position-relative">
-                            <div class="comment_card position-relative">
-                                <div class="position-absolute card_arrow">
-                                    <img src="./assets/images/card_arrow.png" alt="card_arrow">
-                                </div>
-                                <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat</p>
-                            </div>
-                            <div class="d-flex position-absolute gap_10 card_name">
-                                <img src="./assets/images/Darrel.png" alt="Darrel">
-                                <div class="d-flex flex-column">
-                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_23 pb-1">Darrell Steward</p>
-                                    <img src="./assets/images/Five_star.png" alt="Five_star">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="position-relative">
-                            <div class="comment_card position-relative">
-                                <div class="position-absolute card_arrow">
-                                    <img src="./assets/images/card_arrow.png" alt="card_arrow">
-                                </div>
-                                <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Magna ipsum erat magna nulla auctor. Phasellus consectetur aliquam vel at non faucibus viverra.</p>
-                            </div>
-                            <div class="d-flex position-absolute gap_10 card_name">
-                                <img src="./assets/images/Savannah.png" alt="Savannah">
-                                <div class="d-flex flex-column">
-                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_23 pb-1">Savannah Nguyen</p>
-                                    <img src="./assets/images/Five_star.png" alt="Five_star">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4 mt_43">
-                        <div class="position-relative">
-                            <div class="comment_card position-relative">
-                                <div class="position-absolute card_arrow">
-                                    <img src="./assets/images/card_arrow.png" alt="card_arrow">
-                                </div>
-                                <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
-                            </div>
-                            <div class="d-flex position-absolute gap_10 card_name">
-                                <img src="./assets/images/Esther.png" alt="Esther">
-                                <div class="d-flex flex-column">
-                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_23 pb-1">Esther Howard</p>
-                                    <img src="./assets/images/Five_star.png" alt="Five_star">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-5 mt_100 d-flex flex-column align-items-end">
-                        <div class="position-relative">
-                            <div class="comment_card position-relative">
-                                <div class="position-absolute card_arrow">
-                                    <img src="./assets/images/card_arrow.png" alt="card_arrow">
-                                </div>
-                                <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Urna ac eu cras pellentesque scelerisque et. Vestibulum sed felis leo leo massa elementum sit praesent eu.</p>
-                            </div>
-                            <div class="d-flex position-absolute gap_10 card_name">
-                                <img src="./assets/images/Jenny.png" alt="Jenny">
-                                <div class="d-flex flex-column">
-                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_23 pb-1">Jenny Wilson</p>
-                                    <img src="./assets/images/Five_star.png" alt="Five_star">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-5 mt_116 d-flex flex-column align-items-center">
-                        <div class="position-relative">
-                            <div class="comment_card position-relative">
-                                <div class="position-absolute card_arrow">
-                                    <img src="./assets/images/card_arrow.png" alt="card_arrow">
-                                </div>
-                                <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Nibh in commodo faucibus tincidunt. Adipiscing lobortis est elit neque sem scelerisque tellus magna urna.</p>
-                            </div>
-                            <div class="d-flex position-absolute gap_10 card_name">
-                                <img src="./assets/images/Wade.png" alt="Wade">
-                                <div class="d-flex flex-column">
-                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_23 pb-1">Wade Warren</p>
-                                    <img src="./assets/images/Five_star.png" alt="Five_star">
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
-              </div>
+                <div class="px-1">
+                    <div class="row justify-content-center pb_sm_80">
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 mt_26">
+                                <div class="comment_card position-relative">
+                                    <div class="position-absolute card_arrow">
+                                        <img src="./assets/images/card_arrow.png" alt="card_arrow">
+                                    </div>
+                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Sit urna ornare sed
+                                        quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat
+                                        in placerat</p>
+                                </div>
+                                <div class="d-flex gap_10 card_name">
+                                    <img src="./assets/images/Darrel.png" alt="Darrel">
+                                    <div class="d-flex flex-column">
+                                        <p class="mb-0 fs-md ff-rubik fw_400 lh_23 pb-1">Darrell Steward</p>
+                                        <img src="./assets/images/Five_star.png" alt="Five_star" class="w_98">
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-12 col-sm-6 d-none d-sm-block col-md-7 col-lg-4 mt_lg_40">
+                                <div class="comment_card position-relative">
+                                    <div class="position-absolute card_arrow">
+                                        <img src="./assets/images/card_arrow.png" alt="card_arrow">
+                                    </div>
+                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Magna ipsum erat magna
+                                        nulla auctor. Phasellus consectetur aliquam vel at non faucibus viverra.</p>
+                                </div>
+                                <div class="d-flex gap_10 card_name">
+                                    <img src="./assets/images/Savannah.png" alt="Savannah">
+                                    <div class="d-flex flex-column">
+                                        <p class="mb-0 fs-md ff-rubik fw_400 lh_23 pb-1">Savannah Nguyen</p>
+                                        <img src="./assets/images/Five_star.png" alt="Five_star" class="w_98">
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 d-none d-lg-block mt_43">
+                                <div class="comment_card position-relative">
+                                    <div class="position-absolute card_arrow">
+                                        <img src="./assets/images/card_arrow.png" alt="card_arrow">
+                                    </div>
+                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Morbi leo ullamcorper
+                                        in et viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
+                                </div>
+                                <div class="d-flex gap_10 card_name">
+                                    <img src="./assets/images/Esther.png" alt="Esther">
+                                    <div class="d-flex flex-column">
+                                        <p class="mb-0 fs-md ff-rubik fw_400 lh_23 pb-1">Esther Howard</p>
+                                        <img src="./assets/images/Five_star.png" alt="Five_star" class="w_98">
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-12 col-sm-6 d-none d-sm-block col-lg-5 mt_43 ">
+                                <div class="comment_card position-relative">
+                                    <div class="position-absolute card_arrow">
+                                        <img src="./assets/images/card_arrow.png" alt="card_arrow">
+                                    </div>
+                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Urna ac eu cras
+                                        pellentesque scelerisque et. Vestibulum sed felis leo leo massa elementum sit
+                                        praesent eu.</p>
+                                </div>
+                                <div class="d-flex gap_10 card_name w-100 ">
+                                    <img src="./assets/images/Jenny.png" alt="Jenny">
+                                    <div class="d-flex flex-column">
+                                        <p class="mb-0 fs-md ff-rubik fw_400 lh_23 pb-1">Jenny Wilson</p>
+                                        <img src="./assets/images/Five_star.png" alt="Five_star" class="w_98">
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-12 col-sm-6 d-none d-sm-block col-lg-5 mt_80">
+                                <div class="comment_card position-relative">
+                                    <div class="position-absolute card_arrow">
+                                        <img src="./assets/images/card_arrow.png" alt="card_arrow">
+                                    </div>
+                                    <p class="mb-0 fs-sm ff-rubik fw_400 lh_24 color-black op_80">Nibh in commodo
+                                        faucibus tincidunt. Adipiscing lobortis est elit neque sem scelerisque tellus
+                                        magna urna.</p>
+                                </div>
+                                <div class="d-flex gap_10 card_name">
+                                    <img src="./assets/images/Wade.png" alt="Wade">
+                                    <div class="d-flex flex-column">
+                                        <p class="mb-0 fs-md ff-rubik fw_400 lh_23 pb-1">Wade Warren</p>
+                                        <img src="./assets/images/Five_star.png" alt="Five_star" class="w_98">
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="left_arrow d-flex align-items-center justify-content-center position-absolute">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M17.5499 4.7796L8.3435 14.224C8.1818 14.3899 8.09131 14.6124 8.09131 14.8441C8.09131 15.0757 8.1818 15.2982 8.3435 15.4641L17.5499 24.9121C17.6252 24.9894 17.7152 25.0509 17.8147 25.0929C17.9142 25.1349 18.0211 25.1565 18.129 25.1565C18.237 25.1565 18.3439 25.1349 18.4433 25.0929C18.5428 25.0509 18.6329 24.9894 18.7082 24.9121C18.8632 24.7534 18.9499 24.5404 18.9499 24.3187C18.9499 24.0969 18.8632 23.8839 18.7082 23.7253L10.0508 14.8441L18.7082 5.96459C18.8626 5.80603 18.949 5.59343 18.949 5.3721C18.949 5.15076 18.8626 4.93816 18.7082 4.7796C18.6329 4.70224 18.5428 4.64075 18.4433 4.59877C18.3439 4.55679 18.237 4.53516 18.129 4.53516C18.0211 4.53516 17.9142 4.55679 17.8147 4.59877C17.7152 4.64075 17.6252 4.70224 17.5499 4.7796Z"
+                        fill="#F36A3E"
+                        style="fill:#F36A3E;fill:color(display-p3 0.9529 0.4157 0.2431);fill-opacity:1;" />
+                </svg>
+            </div>
+            <div class="right_arrow d-flex align-items-center justify-content-center position-absolute">
+                <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M1.83247 0.779599L11.0388 10.224C11.2005 10.3899 11.291 10.6124 11.291 10.8441C11.291 11.0757 11.2005 11.2982 11.0388 11.4641L1.83247 20.9121C1.75715 20.9894 1.6671 21.0509 1.56762 21.0929C1.46815 21.1349 1.36127 21.1565 1.2533 21.1565C1.14533 21.1565 1.03845 21.1349 0.938977 21.0929C0.839503 21.0509 0.749449 20.9894 0.674128 20.9121C0.519169 20.7534 0.432416 20.5404 0.432416 20.3187C0.432416 20.0969 0.519169 19.8839 0.674128 19.7253L9.33151 10.8441L0.674128 1.96459C0.5197 1.80603 0.433283 1.59343 0.433283 1.3721C0.433283 1.15076 0.5197 0.938165 0.674128 0.779599C0.749449 0.70224 0.839503 0.640754 0.938977 0.59877C1.03845 0.556786 1.14533 0.535156 1.2533 0.535156C1.36127 0.535156 1.46815 0.556786 1.56762 0.59877C1.6671 0.640754 1.75715 0.70224 1.83247 0.779599Z"
+                        fill="#FAFAFA"
+                        style="fill:#F36A3E;fill:color(display-p3 0.9529 0.4157 0.2431);fill-opacity:1;" />
+                </svg>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="my_container pt_160 pb_160">
+            <h2 class="mb-0 fs-2xl lh_47 ff-rubik fw_500 color-black2 text-center pb_50">Frequently Asked Questions</h2>
+            <div class="accordion ">
+                <div class="accordionItem active">
+                    <div class="accordionTitle d-flex justify-content-between ff-rubik fs-xl fw_400 lh_28 color-black2">
+                        Q1. How does the CVhawk work??
+                        <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3.93873 11.4318L12.9095 20.1765C13.067 20.3301 13.2784 20.416 13.4984 20.416C13.7185 20.416 13.9298 20.3301 14.0873 20.1765L23.0615 11.4318C23.135 11.3603 23.1934 11.2748 23.2332 11.1803C23.2731 11.0858 23.2937 10.9843 23.2937 10.8817C23.2937 10.7792 23.2731 10.6777 23.2332 10.5832C23.1934 10.4887 23.135 10.4031 23.0615 10.3316C22.9108 10.1844 22.7085 10.102 22.4979 10.102C22.2872 10.102 22.0849 10.1844 21.9342 10.3316L13.4984 18.5548L5.06429 10.3316C4.91368 10.1849 4.71175 10.1028 4.50151 10.1028C4.29127 10.1028 4.08934 10.1849 3.93873 10.3316C3.86525 10.4031 3.80684 10.4887 3.76697 10.5832C3.72709 10.6777 3.70654 10.7792 3.70654 10.8817C3.70654 10.9843 3.72709 11.0858 3.76697 11.1803C3.80684 11.2748 3.86525 11.3603 3.93873 11.4318Z"
+                                fill="black" style="fill:black;fill-opacity:1;" />
+                        </svg>
+                    </div>
+                    <div class="accordion-para fs-sm fw_400 ff-rubik lh_24 color-black op_80">
+                        Absolutely! We understand that your CV is a dynamic document that may require updates and
+                        modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and
+                        make changes whenever needed.
+                    </div>
+                </div>
+                <div class="accordionItem">
+                    <div class="accordionTitle d-flex justify-content-between ff-rubik fs-xl fw_400 lh_28 color-black2">
+                        Q2. Is the CVhawk completely free to use?
+                        <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3.93873 11.4318L12.9095 20.1765C13.067 20.3301 13.2784 20.416 13.4984 20.416C13.7185 20.416 13.9298 20.3301 14.0873 20.1765L23.0615 11.4318C23.135 11.3603 23.1934 11.2748 23.2332 11.1803C23.2731 11.0858 23.2937 10.9843 23.2937 10.8817C23.2937 10.7792 23.2731 10.6777 23.2332 10.5832C23.1934 10.4887 23.135 10.4031 23.0615 10.3316C22.9108 10.1844 22.7085 10.102 22.4979 10.102C22.2872 10.102 22.0849 10.1844 21.9342 10.3316L13.4984 18.5548L5.06429 10.3316C4.91368 10.1849 4.71175 10.1028 4.50151 10.1028C4.29127 10.1028 4.08934 10.1849 3.93873 10.3316C3.86525 10.4031 3.80684 10.4887 3.76697 10.5832C3.72709 10.6777 3.70654 10.7792 3.70654 10.8817C3.70654 10.9843 3.72709 11.0858 3.76697 11.1803C3.80684 11.2748 3.86525 11.3603 3.93873 11.4318Z"
+                                fill="black" style="fill:black;fill-opacity:1;" />
+                        </svg>
+                    </div>
+                    <div class="accordion-para fs-sm fw_400 ff-rubik lh_24 color-black op_80">
+                        Absolutely! We understand that your CV is a dynamic document that may require updates and
+                        modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and
+                        make changes whenever needed.
+                    </div>
+
+                </div>
+                <div class="accordionItem">
+                    <div class="accordionTitle d-flex justify-content-between ff-rubik fs-xl fw_400 lh_28 color-black2">
+                        Q3. Can I edit my CV after I've saved it?
+                        <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3.93873 11.4318L12.9095 20.1765C13.067 20.3301 13.2784 20.416 13.4984 20.416C13.7185 20.416 13.9298 20.3301 14.0873 20.1765L23.0615 11.4318C23.135 11.3603 23.1934 11.2748 23.2332 11.1803C23.2731 11.0858 23.2937 10.9843 23.2937 10.8817C23.2937 10.7792 23.2731 10.6777 23.2332 10.5832C23.1934 10.4887 23.135 10.4031 23.0615 10.3316C22.9108 10.1844 22.7085 10.102 22.4979 10.102C22.2872 10.102 22.0849 10.1844 21.9342 10.3316L13.4984 18.5548L5.06429 10.3316C4.91368 10.1849 4.71175 10.1028 4.50151 10.1028C4.29127 10.1028 4.08934 10.1849 3.93873 10.3316C3.86525 10.4031 3.80684 10.4887 3.76697 10.5832C3.72709 10.6777 3.70654 10.7792 3.70654 10.8817C3.70654 10.9843 3.72709 11.0858 3.76697 11.1803C3.80684 11.2748 3.86525 11.3603 3.93873 11.4318Z"
+                                fill="black" style="fill:black;fill-opacity:1;" />
+                        </svg>
+                    </div>
+                    <div class="accordion-para fs-sm fw_400 ff-rubik lh_24 color-black op_80">
+                        Absolutely! We understand that your CV is a dynamic document that may require updates and
+                        modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and
+                        make changes whenever needed.
+                    </div>
+
+                </div>
+                <div class="accordionItem">
+                    <div class="accordionTitle d-flex justify-content-between ff-rubik fs-xl fw_400 lh_28 color-black2">
+                        Q4. Can I import my existing CV into the builder?
+                        <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3.93873 11.4318L12.9095 20.1765C13.067 20.3301 13.2784 20.416 13.4984 20.416C13.7185 20.416 13.9298 20.3301 14.0873 20.1765L23.0615 11.4318C23.135 11.3603 23.1934 11.2748 23.2332 11.1803C23.2731 11.0858 23.2937 10.9843 23.2937 10.8817C23.2937 10.7792 23.2731 10.6777 23.2332 10.5832C23.1934 10.4887 23.135 10.4031 23.0615 10.3316C22.9108 10.1844 22.7085 10.102 22.4979 10.102C22.2872 10.102 22.0849 10.1844 21.9342 10.3316L13.4984 18.5548L5.06429 10.3316C4.91368 10.1849 4.71175 10.1028 4.50151 10.1028C4.29127 10.1028 4.08934 10.1849 3.93873 10.3316C3.86525 10.4031 3.80684 10.4887 3.76697 10.5832C3.72709 10.6777 3.70654 10.7792 3.70654 10.8817C3.70654 10.9843 3.72709 11.0858 3.76697 11.1803C3.80684 11.2748 3.86525 11.3603 3.93873 11.4318Z"
+                                fill="black" style="fill:black;fill-opacity:1;" />
+                        </svg>
+                    </div>
+                    <div class="accordion-para fs-sm fw_400 ff-rubik lh_24 color-black op_80">
+                        Absolutely! We understand that your CV is a dynamic document that may require updates and
+                        modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and
+                        make changes whenever needed.
+                    </div>
+
+                </div>
+                <div class="accordionItem">
+                    <div class="accordionTitle d-flex justify-content-between ff-rubik fs-xl fw_400 lh_28 color-black2">
+                        Q5. Is my personal information safe and secure?
+                        <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3.93873 11.4318L12.9095 20.1765C13.067 20.3301 13.2784 20.416 13.4984 20.416C13.7185 20.416 13.9298 20.3301 14.0873 20.1765L23.0615 11.4318C23.135 11.3603 23.1934 11.2748 23.2332 11.1803C23.2731 11.0858 23.2937 10.9843 23.2937 10.8817C23.2937 10.7792 23.2731 10.6777 23.2332 10.5832C23.1934 10.4887 23.135 10.4031 23.0615 10.3316C22.9108 10.1844 22.7085 10.102 22.4979 10.102C22.2872 10.102 22.0849 10.1844 21.9342 10.3316L13.4984 18.5548L5.06429 10.3316C4.91368 10.1849 4.71175 10.1028 4.50151 10.1028C4.29127 10.1028 4.08934 10.1849 3.93873 10.3316C3.86525 10.4031 3.80684 10.4887 3.76697 10.5832C3.72709 10.6777 3.70654 10.7792 3.70654 10.8817C3.70654 10.9843 3.72709 11.0858 3.76697 11.1803C3.80684 11.2748 3.86525 11.3603 3.93873 11.4318Z"
+                                fill="black" style="fill:black;fill-opacity:1;" />
+                        </svg>
+                    </div>
+                    <div class="accordion-para fs-sm fw_400 ff-rubik lh_24 color-black op_80">
+                        Absolutely! We understand that your CV is a dynamic document that may require updates and
+                        modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and
+                        make changes whenever needed.
+                    </div>
+                </div>
+                <div class="accordionItem border-0">
+                    <div class="accordionTitle d-flex justify-content-between ff-rubik fs-xl fw_400 lh_28 color-black2">
+                        Q6. What kind of templates are available in the CV builder?
+                        <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3.93873 11.4318L12.9095 20.1765C13.067 20.3301 13.2784 20.416 13.4984 20.416C13.7185 20.416 13.9298 20.3301 14.0873 20.1765L23.0615 11.4318C23.135 11.3603 23.1934 11.2748 23.2332 11.1803C23.2731 11.0858 23.2937 10.9843 23.2937 10.8817C23.2937 10.7792 23.2731 10.6777 23.2332 10.5832C23.1934 10.4887 23.135 10.4031 23.0615 10.3316C22.9108 10.1844 22.7085 10.102 22.4979 10.102C22.2872 10.102 22.0849 10.1844 21.9342 10.3316L13.4984 18.5548L5.06429 10.3316C4.91368 10.1849 4.71175 10.1028 4.50151 10.1028C4.29127 10.1028 4.08934 10.1849 3.93873 10.3316C3.86525 10.4031 3.80684 10.4887 3.76697 10.5832C3.72709 10.6777 3.70654 10.7792 3.70654 10.8817C3.70654 10.9843 3.72709 11.0858 3.76697 11.1803C3.80684 11.2748 3.86525 11.3603 3.93873 11.4318Z"
+                                fill="black" style="fill:black;fill-opacity:1;" />
+                        </svg>
+                    </div>
+                    <div class="accordion-para fs-sm fw_400 ff-rubik lh_24 color-black op_80">
+                        Absolutely! We understand that your CV is a dynamic document that may require updates and
+                        modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and
+                        make changes whenever needed.
+                    </div>
+
+                </div>
             </div>
         </div>
     </section>
+    <section class="">
+        <div class="bg_back">
+            <div class="my_container px_40">
+                <div
+                    class="footer_box d-flex flex-column align-items-center justify-content-center w-100">
+                    <h2 class="mb-0 fs-2xl color-white text-center lh_47 ff-rubik fw_500 w_669">Your Path to Success
+                        Starts Here: Build Your CV Today</h2>
+                    <p class="mb-0 fs-sm fw_400 ff-rubik text-center color-white lh_24 pt-3 w_615">Our CV builder not
+                        only provides a user-friendly interface but also offers valuable guidance along the way.</p>
+                        <button class="footer_box_btn fs-sm lh_18 ff-rubik fw_400 color-black2">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer_bg mt_-1">
+        <div class="my_container">
+            <div class="row pb_69 pt_18">
+                <div class="col-12 col-md-5">
+                    <div class="footer_svg">
+                        <img src="./assets/images/footer_svg.svg" alt="footer_svg" class="w-100">
+                    </div>
+                    <p class="mb-0 fs-sm fw_400 ff-rubik lh_24 color-white op_90 w_373 pb_33">Sit urna ornare sed quam
+                        molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat id
+                        facilisis.</p>
+                    <div class="d-none d-md-block">
+                        <ul class="ps-0 mb-0 d-flex gap_32">
+                            <li><a href="https://twitter.com/" target="_blank">
+                                    <svg width="28" height="24" viewBox="0 0 28 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M25.804 1.76871C26.0929 1.77112 26.3756 1.8525 26.6215 2.00405C26.8675 2.1556 27.0673 2.37154 27.1993 2.62849C27.3313 2.88544 27.3905 3.17361 27.3705 3.46181C27.3505 3.75 27.2521 4.02723 27.0858 4.26348L25.49 6.5316C25.392 14.3207 22.787 19.6089 17.7469 22.2507C15.3451 23.4443 12.6915 24.0426 10.0099 23.9951C6.69401 24.0713 3.41735 23.2659 0.514696 21.6611C0.319433 21.5299 0.168521 21.3425 0.0818546 21.1238C-0.004812 20.9051 -0.0231644 20.6653 0.029217 20.4359C0.078256 20.2031 0.196719 19.9907 0.368972 19.8267C0.541225 19.6626 0.759171 19.5546 0.994049 19.517C2.944 19.2447 4.86417 18.7904 6.72944 18.1601C-1.62937 14.2931 0.193085 5.60046 0.989454 2.9311C1.06709 2.66608 1.21307 2.42615 1.41274 2.23538C1.61241 2.04462 1.85874 1.90973 2.12702 1.84425C2.39529 1.77877 2.67607 1.78501 2.94118 1.86234C3.20628 1.93967 3.44638 2.08537 3.63738 2.28481C6.08413 4.80598 9.32824 6.40233 12.8186 6.80268C12.7567 5.8647 12.9016 4.92458 13.2433 4.04886C13.585 3.17313 14.115 2.38321 14.7957 1.73501C15.9751 0.615757 17.5407 -0.0056661 19.1666 3.89365e-05C20.7925 0.00574397 22.3537 0.638138 23.5252 1.76564L25.804 1.76871ZM2.23148 20.8693C5.0831 22.2048 11.7665 23.6551 17.0363 20.8938C21.5618 18.5215 23.8912 13.6469 23.9601 6.40449C23.9632 6.16501 24.039 5.93214 24.1776 5.73677L25.8331 3.38135L25.7703 3.30018C24.977 3.28946 24.1944 3.27874 23.3965 3.30018C23.0854 3.29306 22.7876 3.17272 22.5588 2.96173C21.6772 2.06809 20.4802 1.55594 19.2251 1.53532C17.9699 1.5147 16.7568 1.98726 15.8463 2.85146C15.2615 3.40764 14.8244 4.10067 14.5744 4.86802C14.3244 5.63537 14.2694 6.45289 14.4144 7.2468C14.4411 7.3947 14.4337 7.54673 14.3928 7.69135C14.3519 7.83598 14.2787 7.96939 14.1785 8.08146C14.0826 8.19451 13.9604 8.28227 13.8226 8.33701C13.6848 8.39176 13.5357 8.41181 13.3883 8.39541C9.27355 8.10827 5.40991 6.31116 2.53931 3.34919C1.51322 6.5316 0.211462 14.2135 8.4646 17.232C8.63829 17.2944 8.79054 17.405 8.90342 17.551C9.0163 17.697 9.08509 17.8722 9.1017 18.056C9.12037 18.237 9.08707 18.4195 9.0057 18.5823C8.92433 18.745 8.79825 18.8812 8.64225 18.9749C6.6255 19.9583 4.45886 20.5986 2.23148 20.8693Z"
+                                            fill="#FAFAFA"
+                                            style="fill:#FAFAFA;fill:color(display-p3 0.9804 0.9804 0.9804);fill-opacity:1;" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="https://www.facebook.com/" target="_blank">
+                                    <svg width="16" height="26" viewBox="0 0 16 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14.5745 1H10.9745C9.38321 1 7.85709 1.63214 6.73187 2.75736C5.60665 3.88258 4.97451 5.4087 4.97451 7V10.6H1.37451V15.4H4.97451V25H9.77451V15.4H13.3745L14.5745 10.6H9.77451V7C9.77451 6.68174 9.90094 6.37652 10.126 6.15147C10.351 5.92643 10.6563 5.8 10.9745 5.8H14.5745V1Z"
+                                            stroke="#FAFAFA"
+                                            style="stroke:#FAFAFA;stroke:color(display-p3 0.9804 0.9804 0.9804);stroke-opacity:1;"
+                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank">
+                                    <svg width="27" height="26" viewBox="0 0 27 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.5741 18.3346C14.9885 18.3346 16.3451 17.7727 17.3453 16.7725C18.3455 15.7723 18.9074 14.4158 18.9074 13.0013C18.9074 11.5868 18.3455 10.2303 17.3453 9.23007C16.3451 8.22987 14.9885 7.66797 13.5741 7.66797C12.1596 7.66797 10.803 8.22987 9.80282 9.23007C8.80263 10.2303 8.24072 11.5868 8.24072 13.0013C8.24072 14.4158 8.80263 15.7723 9.80282 16.7725C10.803 17.7727 12.1596 18.3346 13.5741 18.3346Z"
+                                            stroke="#FAFAFA"
+                                            style="stroke:#FAFAFA;stroke:color(display-p3 0.9804 0.9804 0.9804);stroke-opacity:1;"
+                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M1.57422 18.3333V7.66667C1.57422 5.89856 2.2766 4.20286 3.52684 2.95262C4.77708 1.70238 6.47278 1 8.24089 1H18.9076C20.6757 1 22.3714 1.70238 23.6216 2.95262C24.8718 4.20286 25.5742 5.89856 25.5742 7.66667V18.3333C25.5742 20.1014 24.8718 21.7971 23.6216 23.0474C22.3714 24.2976 20.6757 25 18.9076 25H8.24089C6.47278 25 4.77708 24.2976 3.52684 23.0474C2.2766 21.7971 1.57422 20.1014 1.57422 18.3333Z"
+                                            stroke="#FAFAFA"
+                                            style="stroke:#FAFAFA;stroke:color(display-p3 0.9804 0.9804 0.9804);stroke-opacity:1;"
+                                            stroke-width="1.5" />
+                                        <path d="M20.9077 5.67873L20.921 5.66406" stroke="#FAFAFA"
+                                            style="stroke:#FAFAFA;stroke:color(display-p3 0.9804 0.9804 0.9804);stroke-opacity:1;"
+                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 pt_63">
+                    <div class="row">
+                        <div class="col-6 col-md-4 d-flex justify-content-md-center">
+                            <ul class="mb-0 ps-0 d-flex flex-column gap_20">
+                                <li class="fs-sm ff-rubik color-white fw_500 lh_24">Quick Links</li>
+                                <li><a href="#" class="fs-sm lh_24 fw_400 ff-rubik color-white op_90">Home</a></li>
+                                <li><a href="#" class="fs-sm lh_24 fw_400 ff-rubik color-white op_90">About</a></li>
+                                <li><a href="#" class="fs-sm lh_24 fw_400 ff-rubik color-white op_90">We’ll help you</a>
+                                </li>
+                                <li><a href="#" class="fs-sm lh_24 fw_400 ff-rubik color-white op_90">Testimonials</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-4 d-flex justify-content-md-center">
+                            <ul class="mb-0 ps-0 d-flex flex-column gap_20">
+                                <li class="fs-sm lh_24 ff-rubik color-white fw_500">Support</li>
+                                <li>
+                                    <svg width="13" height="13" class="mr_6" viewBox="0 0 13 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.0189 8.53711L9.4314 8.35586C9.24473 8.33394 9.05553 8.3546 8.878 8.41631C8.70047 8.47801 8.53923 8.57914 8.4064 8.71211L7.2564 9.86211C5.48214 8.95975 4.04001 7.51762 3.13765 5.74336L4.2939 4.58711C4.56265 4.31836 4.6939 3.94336 4.65015 3.56211L4.4689 1.98711C4.43346 1.68222 4.28714 1.40101 4.0578 1.19701C3.82845 0.993022 3.53209 0.880495 3.22515 0.88086H2.1439C1.43765 0.88086 0.850147 1.46836 0.893897 2.17461C1.22515 7.51211 5.4939 11.7746 10.8251 12.1059C11.5314 12.1496 12.1189 11.5621 12.1189 10.8559V9.77461C12.1251 9.14336 11.6501 8.61211 11.0189 8.53711Z"
+                                            fill="#FAFAFA"
+                                            style="fill:#FAFAFA;fill:color(display-p3 0.9804 0.9804 0.9804);fill-opacity:1;" />
+                                    </svg>
+                                    <a href="tel:+1234567890" target="_blank"
+                                        class="fs-sm fw_400 lh_24 color-white ff-rubik">+012 345 67890</a>
+                                </li>
+                                <li>
+                                    <svg width="13" height="11" class="mr_6" viewBox="0 0 13 11" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.5 0.5H1.5C0.8125 0.5 0.25625 1.0625 0.25625 1.75L0.25 9.25C0.25 9.9375 0.8125 10.5 1.5 10.5H11.5C12.1875 10.5 12.75 9.9375 12.75 9.25V1.75C12.75 1.0625 12.1875 0.5 11.5 0.5ZM11.5 3L6.5 6.125L1.5 3V1.75L6.5 4.875L11.5 1.75V3Z"
+                                            fill="#FAFAFA"
+                                            style="fill:#FAFAFA;fill:color(display-p3 0.9804 0.9804 0.9804);fill-opacity:1;" />
+                                    </svg>
+                                    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"
+                                        class="fs-sm fw_400 lh_24 color-white ff-rubik">Cvhawk@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-4 d-flex justify-content-md-center pt_md_30">
+                            <ul class="mb-0 ps-0 d-flex flex-column gap_20">
+                                <li class="fs-sm ff-rubik color-white fw_500 lh_24">Legal</li>
+                                <li><a href="#" class="fs-sm lh_24 fw_400 ff-rubik color-white op_90">Privacy Policy</a>
+                                </li>
+                                <li><a href="#" class="fs-sm lh_24 fw_400 ff-rubik color-white op_90">Terms &
+                                        conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-md-none">
+                        <ul class="ps-0 mb-0 d-flex gap_32 pt_40">
+                            <li><a href="https://twitter.com/" target="_blank">
+                                    <svg width="28" height="24" viewBox="0 0 28 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M25.804 1.76871C26.0929 1.77112 26.3756 1.8525 26.6215 2.00405C26.8675 2.1556 27.0673 2.37154 27.1993 2.62849C27.3313 2.88544 27.3905 3.17361 27.3705 3.46181C27.3505 3.75 27.2521 4.02723 27.0858 4.26348L25.49 6.5316C25.392 14.3207 22.787 19.6089 17.7469 22.2507C15.3451 23.4443 12.6915 24.0426 10.0099 23.9951C6.69401 24.0713 3.41735 23.2659 0.514696 21.6611C0.319433 21.5299 0.168521 21.3425 0.0818546 21.1238C-0.004812 20.9051 -0.0231644 20.6653 0.029217 20.4359C0.078256 20.2031 0.196719 19.9907 0.368972 19.8267C0.541225 19.6626 0.759171 19.5546 0.994049 19.517C2.944 19.2447 4.86417 18.7904 6.72944 18.1601C-1.62937 14.2931 0.193085 5.60046 0.989454 2.9311C1.06709 2.66608 1.21307 2.42615 1.41274 2.23538C1.61241 2.04462 1.85874 1.90973 2.12702 1.84425C2.39529 1.77877 2.67607 1.78501 2.94118 1.86234C3.20628 1.93967 3.44638 2.08537 3.63738 2.28481C6.08413 4.80598 9.32824 6.40233 12.8186 6.80268C12.7567 5.8647 12.9016 4.92458 13.2433 4.04886C13.585 3.17313 14.115 2.38321 14.7957 1.73501C15.9751 0.615757 17.5407 -0.0056661 19.1666 3.89365e-05C20.7925 0.00574397 22.3537 0.638138 23.5252 1.76564L25.804 1.76871ZM2.23148 20.8693C5.0831 22.2048 11.7665 23.6551 17.0363 20.8938C21.5618 18.5215 23.8912 13.6469 23.9601 6.40449C23.9632 6.16501 24.039 5.93214 24.1776 5.73677L25.8331 3.38135L25.7703 3.30018C24.977 3.28946 24.1944 3.27874 23.3965 3.30018C23.0854 3.29306 22.7876 3.17272 22.5588 2.96173C21.6772 2.06809 20.4802 1.55594 19.2251 1.53532C17.9699 1.5147 16.7568 1.98726 15.8463 2.85146C15.2615 3.40764 14.8244 4.10067 14.5744 4.86802C14.3244 5.63537 14.2694 6.45289 14.4144 7.2468C14.4411 7.3947 14.4337 7.54673 14.3928 7.69135C14.3519 7.83598 14.2787 7.96939 14.1785 8.08146C14.0826 8.19451 13.9604 8.28227 13.8226 8.33701C13.6848 8.39176 13.5357 8.41181 13.3883 8.39541C9.27355 8.10827 5.40991 6.31116 2.53931 3.34919C1.51322 6.5316 0.211462 14.2135 8.4646 17.232C8.63829 17.2944 8.79054 17.405 8.90342 17.551C9.0163 17.697 9.08509 17.8722 9.1017 18.056C9.12037 18.237 9.08707 18.4195 9.0057 18.5823C8.92433 18.745 8.79825 18.8812 8.64225 18.9749C6.6255 19.9583 4.45886 20.5986 2.23148 20.8693Z"
+                                            fill="#FAFAFA"
+                                            style="fill:#FAFAFA;fill:color(display-p3 0.9804 0.9804 0.9804);fill-opacity:1;" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="https://www.facebook.com/" target="_blank">
+                                    <svg width="16" height="26" viewBox="0 0 16 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14.5745 1H10.9745C9.38321 1 7.85709 1.63214 6.73187 2.75736C5.60665 3.88258 4.97451 5.4087 4.97451 7V10.6H1.37451V15.4H4.97451V25H9.77451V15.4H13.3745L14.5745 10.6H9.77451V7C9.77451 6.68174 9.90094 6.37652 10.126 6.15147C10.351 5.92643 10.6563 5.8 10.9745 5.8H14.5745V1Z"
+                                            stroke="#FAFAFA"
+                                            style="stroke:#FAFAFA;stroke:color(display-p3 0.9804 0.9804 0.9804);stroke-opacity:1;"
+                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank">
+                                    <svg width="27" height="26" viewBox="0 0 27 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.5741 18.3346C14.9885 18.3346 16.3451 17.7727 17.3453 16.7725C18.3455 15.7723 18.9074 14.4158 18.9074 13.0013C18.9074 11.5868 18.3455 10.2303 17.3453 9.23007C16.3451 8.22987 14.9885 7.66797 13.5741 7.66797C12.1596 7.66797 10.803 8.22987 9.80282 9.23007C8.80263 10.2303 8.24072 11.5868 8.24072 13.0013C8.24072 14.4158 8.80263 15.7723 9.80282 16.7725C10.803 17.7727 12.1596 18.3346 13.5741 18.3346Z"
+                                            stroke="#FAFAFA"
+                                            style="stroke:#FAFAFA;stroke:color(display-p3 0.9804 0.9804 0.9804);stroke-opacity:1;"
+                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M1.57422 18.3333V7.66667C1.57422 5.89856 2.2766 4.20286 3.52684 2.95262C4.77708 1.70238 6.47278 1 8.24089 1H18.9076C20.6757 1 22.3714 1.70238 23.6216 2.95262C24.8718 4.20286 25.5742 5.89856 25.5742 7.66667V18.3333C25.5742 20.1014 24.8718 21.7971 23.6216 23.0474C22.3714 24.2976 20.6757 25 18.9076 25H8.24089C6.47278 25 4.77708 24.2976 3.52684 23.0474C2.2766 21.7971 1.57422 20.1014 1.57422 18.3333Z"
+                                            stroke="#FAFAFA"
+                                            style="stroke:#FAFAFA;stroke:color(display-p3 0.9804 0.9804 0.9804);stroke-opacity:1;"
+                                            stroke-width="1.5" />
+                                        <path d="M20.9077 5.67873L20.921 5.66406" stroke="#FAFAFA"
+                                            style="stroke:#FAFAFA;stroke:color(display-p3 0.9804 0.9804 0.9804);stroke-opacity:1;"
+                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+        <div class="footer_line"></div>
+        <h5 class="mb-0 fs-sm fw_500 ff-rubik color-white lh_24 text-center py_20">Copyright@CVhawk2023</h5>
+    </footer>
 
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
-    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script>
-         $('.slider_1').slick({
-      dots: true,
-      infinite: true,
-      speed: 300,
-      arrows: false,
-      autoplay: false,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-    });
-    $('.comment_slider').slick({
-      dots: false,
-      infinite: true,
-      speed: 300,
-      arrows: false,
-      autoplay: false,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-    });
+        $('.slider_1').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            arrows: false,
+            autoplay: false,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 4.5,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2.5,
+        slidesToScroll: 1
+      }
+    }
+  ]
+        });
+        $('.comment_slider').slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            arrows: true,
+            prevArrow: '.left_arrow',
+            nextArrow: '.right_arrow',
+            autoplay: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+        });
+        let accordionitem = document.querySelectorAll(".accordionItem");
+
+        accordionitem.forEach(function (e) {
+            e.addEventListener("click", function () {
+                const isitactive = e.classList.contains("active");
+                accordionitem.forEach(function (e) {
+                    e.classList.remove("active");
+                })
+                if (!isitactive) {
+                    e.classList.toggle("active");
+                }
+            })
+        });
+        const menuicon = document.querySelector(".menuicon");
+        const menulist = document.querySelector(".menulist");
+        const navLink = document.querySelectorAll(".nav_link");
+        navLink.forEach(a => a.addEventListener("click", () => {
+            menulist.classList.toggle("show");
+            document.body.classList.remove("overflow-hidden");
+            menuicon.classList.toggle("show");
+        }))
+        menuicon.addEventListener("click", () => {
+            menulist.classList.toggle("show");
+            document.body.classList.toggle("overflow-hidden");
+            menuicon.classList.toggle("show");
+        });
     </script>
 </body>
+
 </html>
