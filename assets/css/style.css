@@ -148,7 +148,12 @@
     padding: 17px 38px;
     background: var(--bg-orange);
     border-radius: 40px;
+    transition: all 400ms linear;
     border: 1px solid var(--color-orange);
+}
+.Btn:hover{
+    background: var(--bg-white);
+    color: var(--bg-orange);
 }
 
 .header_ellip {
@@ -299,6 +304,10 @@
     border: 1px solid var(--color-orange);
     border-radius: 41px;
     margin-top: 40px;
+    transition: all 400ms linear;
+}
+.footer_box_btn:hover{
+    box-shadow: 0px 0px 25px 2px var(--bg-white);
 }
 
 .img_shadow {
@@ -412,7 +421,7 @@
 .slider_1 .slick-current .slider1_card {
     border: 1px solid var(--color-orange);
 
-    p {
+    .change_color {
         color: var(--color-orange);
     }
 }
