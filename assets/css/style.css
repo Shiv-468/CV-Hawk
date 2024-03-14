@@ -463,9 +463,9 @@
 }
 
 .Group-8 {
-    right: 7px;
+    right: 6px;
     max-width: 45px;
-    bottom: 60%;
+    bottom: 56%;
     rotate: -35deg;
 }
 
@@ -554,7 +554,9 @@
     border-bottom: 1px solid var(--color-black);
     overflow: hidden;
 }
-
+.w_20{
+    width: 20px;
+}
 .accordion-para {
     padding: 17px 0 24px;
     font-style: normal;
@@ -707,7 +709,9 @@
         padding-top: 80px;
         padding-bottom: 80px;
     }
-
+.w_20{
+    width: 25px;
+}
     .header_ellip {
         top: 27%;
         left: 0;
