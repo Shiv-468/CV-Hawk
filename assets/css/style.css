@@ -342,10 +342,6 @@
     max-width: 323px;
 }
 
-.w_465 {
-    max-width: 465px;
-}
-
 .w_556 {
     max-width: 556px;
 }
@@ -507,6 +503,7 @@
     margin-bottom: 30px;
     transition: all 400ms linear;
     left: 35%;
+    cursor: pointer;
 }
 
 .right_arrow {
@@ -518,6 +515,7 @@
     transition: all 400ms linear;
     right: 35%;
     bottom: 0;
+    cursor: pointer;
 }
 
 .left_arrow:hover {
@@ -541,7 +539,10 @@
     left: 4%;
     max-width: 50px !important;
 }
-
+.Ellipse10{
+    left: -40%;
+    bottom: -8%;
+}
 .accordion {
     max-width: 856px;
     margin-left: auto;
@@ -552,6 +553,7 @@
     height: 75px;
     border-bottom: 1px solid var(--color-black);
     overflow: hidden;
+    cursor: pointer;
 }
 
 .accordion-para {
@@ -911,6 +913,12 @@
         padding-top: 80px;
         padding-bottom: 78px;
     }
+    .w_465 {
+        max-width: 465px;
+    }
+    .w_md_755{
+        max-width: 755px;
+    }
 }
 
 @media (min-width:992px) {
@@ -918,7 +926,9 @@
         max-width: 357px;
         padding: 15px 18px 14px;
     }
-
+    .w_md_755{
+        max-width: 499px;
+    }
     .ball_2 {
         top: 8%;
         left: 5%;
